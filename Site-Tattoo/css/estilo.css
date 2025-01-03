@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.titulo-principal {
+    color: black;
+    margin-bottom: 10px
+}
+
+.lista-artes {
+    text-align: center;
+}
+
+.foto-artista {
+    width: 150px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.foto-arte1 {
+    width: 430px;
+    text-align: center;
+    
+}
+
+.foto-arte2 {
+    width: 222px;
+    text-align: center;
+    
+}
+
+.foto-arte3 {
+    width: 210px;
+    text-align: center;
+    
+}
+
+.foto-arte4 {
+    width: 350px;
+    text-align: center;
+    
+}
+
+.foto-arte5 {
+    text-align: center;
+    width: 200px;
+}
+
+.foto-arte6 {
+    text-align: center;
+    width: 200px;
+}
+
+.foto-arte7 {
+    text-align: center;
+    width: 200px;
+}
+
+.foto-arte8 {
+    text-align: center;
+    width: 200px;
+}
+
+header {
+    text-align: center;
+    background-color: darkgray;
+}
+
+.botoes {
+    margin: 5px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.botao1 {
+    background-color:dimgrey;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 22px;
+}
+
+.botao2 {
+    background-color:dimgrey;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 22px;
+}
+
+.botao3 {
+    background-color:dimgrey;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 22px;
+}
+
+.botao4 {
+    background-color:dimgrey;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.h2-1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.h2-2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+    
+
+}
+
+.Informacoes-artista {
+    text-align: center;
+    background-color: darkgray;
+}
+
+.paragrafo-informacoes-artista {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: flex;
+}
+
+.introducao-artes {
+    background-image: url(../img/Artes/fundo-arte.jpg);
+
+}
