@@ -11,3 +11,7 @@
  A imagem do 'background-image' será alterada, sinto que ficou visualmente poluída e precisa melhorar, talvez a mesma imagem fique boa no setor do header.
 
  Testarei posteriormente.
+
+Alterar fundo das imagens, poluição visual.
+Corte de largura da página, diminuir dimensões.
+Ideia das imagens aparecendo conforme for descenso scroll.
