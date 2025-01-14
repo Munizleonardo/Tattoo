@@ -1,14 +1,65 @@
+/* Efeitos globais da página */
 * {
     margin: 0;
     padding: 0;
-    border: 0;
-    vertical-align: baseline;
+    box-sizing: border-box;
 }
+
+/* Estilização topo da página*/
 
 .titulo-principal {
     color: black;
-    margin-bottom: 10px
+    display: fixed;
+    margin-left: 100px;
 }
+
+header {
+    background-color: darkgray;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.botoes {
+    font-weight: bolder;
+    padding: 10px;
+    display: flex;
+    position: end;
+}
+
+.botao1 {
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.botao2 {
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.botao3 {
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+}
+
+
+/* Final da estilização do topo da página*/
 
 .lista-artes {
     text-align: center;
@@ -64,51 +115,8 @@
     width: 200px;
 }
 
-header {
-    text-align: center;
-    background-color: darkgray;
-}
-
-.botoes {
-    margin: 5px;
-    font-weight: bolder;
-    padding: 5px;
-}
-
-.botao1 {
-    background-color:dimgrey;
-    margin: 5px 5px 5px 5px;
-    border-radius: 5px;
-    color: black;
-    font-size: 22px;
-}
-
-.botao2 {
-    background-color:dimgrey;
-    margin: 5px 5px 5px 5px;
-    border-radius: 5px;
-    color: black;
-    font-size: 22px;
-}
-
-.botao3 {
-    background-color:dimgrey;
-    margin: 5px 5px 5px 5px;
-    border-radius: 5px;
-    color: black;
-    font-size: 22px;
-}
-
-.botao4 {
-    background-color:dimgrey;
-    margin: 5px 5px 5px 5px;
-    border-radius: 5px;
-    color: black;
-}
-
 .h2-1 {
     text-align: center;
-    margin-top: 10px;
     margin-bottom: 10px;
     color: white;
     background-color: black;
@@ -117,7 +125,6 @@ header {
 
 .h2-2 {
     text-align: center;
-    margin-top: 10px;
     margin-bottom: 10px;
     background-color: gray;
     
